@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 define(["require", "exports", "aurelia-framework", "sortablejs"], function (require, exports, aurelia_framework_1, Sortable) {
     "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
     var SortableCustomAttribute = (function () {
         function SortableCustomAttribute(element) {
             this.element = element;
@@ -46,8 +47,8 @@ define(["require", "exports", "aurelia-framework", "sortablejs"], function (requ
             }));
         };
         SortableCustomAttribute = __decorate([
-            aurelia_framework_1.inject(Element), 
-            __metadata('design:paramtypes', [Element])
+            aurelia_framework_1.inject(Element),
+            __metadata("design:paramtypes", [Element])
         ], SortableCustomAttribute);
         return SortableCustomAttribute;
     }());
